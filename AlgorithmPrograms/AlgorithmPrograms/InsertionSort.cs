@@ -40,6 +40,7 @@ namespace AlgorithmPrograms
                 Console.Write(list[i] + " ");
             }
             Console.WriteLine();
+            Console.WriteLine("*****************************************************************************");
         }
 
     }
