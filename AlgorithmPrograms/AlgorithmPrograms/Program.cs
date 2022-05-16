@@ -4,7 +4,7 @@ using AlgorithmPrograms;
 Console.WriteLine("Welcome to Algorithm Programs");
 while (true)
 {
-    Console.WriteLine("Please choose the option :\n1) Anagram \n2) Binary Search");
+    Console.WriteLine("Please choose the option :\n1) Anagram \n2) Binary Search \n3) Insertion Sort");
     int option = Convert.ToInt32(Console.ReadLine());
     switch (option)
     {
@@ -43,6 +43,10 @@ while (true)
                 Console.WriteLine("Element found at " + "index " + result);
             }
             Console.WriteLine(result);
+            break;
+        case 3:
+            InsertionSort sort = new();
+            sort.Insertion_Sort();
             break;
         default:
             Console.WriteLine("Please choose the correct ");
