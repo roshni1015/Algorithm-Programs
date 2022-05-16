@@ -22,6 +22,7 @@ while (true)
             {
                 Console.WriteLine("No! Given words are not Anagrams!");
             }
+            Console.WriteLine("*****************************************************************************");
             break;
         case 2:
             BinarySearch binarysearch = new();
@@ -43,6 +44,7 @@ while (true)
                 Console.WriteLine("Element found at " + "index " + result);
             }
             Console.WriteLine(result);
+            Console.WriteLine("*****************************************************************************");
             break;
         default:
             Console.WriteLine("Please choose the correct ");
