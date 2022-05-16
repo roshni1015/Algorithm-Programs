@@ -4,7 +4,7 @@ using AlgorithmPrograms;
 Console.WriteLine("Welcome to Algorithm Programs");
 while (true)
 {
-    Console.WriteLine("Please choose the option :\n1) Anagram \n2) Binary Search \n3) Insertion Sort \n4) Bubble Sort \n5) Finding Prime Numbers \n6) Merge sort");
+    Console.WriteLine("Please choose the option :\n1) Anagram \n2) Binary Search \n3) Insertion Sort \n4) Bubble Sort \n5) Finding Prime Numbers \n6) Merge sort \n7)Finding Number");
     int option = Convert.ToInt32(Console.ReadLine());
     switch (option)
     {
@@ -76,6 +76,10 @@ while (true)
             }
             Console.WriteLine();
             Console.WriteLine("*****************************************************************************");
+            break;
+        case 7:
+            FindingNumber Number = new();
+            Number.Guess();
             break;
         default:
             Console.WriteLine("Please choose the correct ");
