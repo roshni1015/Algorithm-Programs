@@ -4,7 +4,7 @@ using AlgorithmPrograms;
 Console.WriteLine("Welcome to Algorithm Programs");
 while (true)
 {
-    Console.WriteLine("Please choose the option :\n1) Anagram \n2) Binary Search \n3) Insertion Sort \n4) Bubble Sort");
+    Console.WriteLine("\nPlease choose the option :\n1) Anagram \n2) Binary Search \n3) Insertion Sort \n4) Bubble Sort \n5) Finding Prime Numbers");
     int option = Convert.ToInt32(Console.ReadLine());
     switch (option)
     {
@@ -53,6 +53,10 @@ while (true)
         case 4:
             BubbleSort Bubble = new();
             Bubble.Bubblesort();
+            break;
+        case 5:
+            PrimeNumber p1 = new();
+            p1.Primenumber();
             break;
         default:
             Console.WriteLine("Please choose the correct ");
